@@ -4,9 +4,11 @@
   "description": "",
   "main": "app.mjs",
   "scripts": {
+    "start": "node app.mjs",      
     "prod": "node app.mjs",
     "dev": "nodemon app.mjs",
-    "test": "npx mocha"
+    "test": "npx mocha",
+    "postinstall": "npm rebuild bcrypt --build-from-source"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
