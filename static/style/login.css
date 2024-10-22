@@ -1,0 +1,207 @@
+
+.Login{
+    position:absolute;
+    display:flex;
+    top:150px;
+    left:182px;
+    background-color:#C2EDCE;
+    width:150px;
+    height:150px;
+    justify-content:center;
+    align-items:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:20px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+#loginForm{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+.loginFormName{
+    font-size:15px;
+
+}
+.Login input,
+.Login button{
+    position:relative;
+    width:100%;
+    height:100%;
+    margin:10px;
+    border-radius:20px;
+    padding:5px;
+    border:none;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+}
+
+.Login button{
+    background:#BADFE7;
+    border: 2px black;
+    cursor:pointer;
+}
+
+.loginsignup {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:100%;
+}
+
+.loginbutton {
+    position: relative;
+    width: 100px;
+    height: 40px; 
+    margin:20px;
+    padding:20px;
+    font-size:12px; 
+
+}
+
+.Login button:hover{
+    background-color:#a7d8e3;
+}
+
+.Login button:active{
+    background-color:#87cede;
+}
+
+.Login input:hover, .Login button:hover{
+    transform:scale(1.05);
+}
+
+.Login:hover{
+    transform:scale(1.05);
+}
+.signout{
+    display:none;
+    position:absolute;
+    top:150px;
+    left:235px;;
+    height:50px;
+    width:100px;
+}
+
+.signout button{
+    background-color:#BADFE7;
+    width:100%;
+    height:100%;
+    border-radius:20px;
+    font-size:15px;
+    border:none;
+    font-family: "Pacifico",cursive;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+
+}
+
+.signout button:hover{
+    transform:scale(1.05);
+    background-color:#a7d8e3;
+}
+
+.signout button:active{
+    background-color:#87cede;
+}
+
+#error_box{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    left:200px;
+}
+
+
+.popup {
+    position:absolute;
+    font-size:20px;
+    visibility: hidden;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.popup.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+.browsegallery{
+    display:none;
+    position:absolute;
+    top:210px;
+    left:235px;;
+    height:50px;
+    width:100px;
+}
+
+.browsegallery button{
+    background-color:#BADFE7;
+    width:100%;
+    height:100%;
+    border-radius:20px;
+    font-size:15px;
+    border:none;
+    font-family: "Pacifico",cursive;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+
+}
+
+.browsegallery button:hover{
+    transform:scale(1.05);
+    background-color:#a7d8e3;
+}
+
+.browsegallery button:active{
+    background-color:#87cede;
+}
+
+
+.returnback{
+    display:none;
+    position:absolute;
+    top:210px;
+    left:235px;;
+    height:50px;
+    width:100px;
+}
+
+.returnback button{
+    background-color:#BADFE7;
+    width:100%;
+    height:100%;
+    border-radius:20px;
+    font-size:15px;
+    border:none;
+    font-family: "Pacifico",cursive;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+}
+
+.returnback button:hover{
+    transform:scale(1.05);
+    background-color:#a7d8e3;
+}
+
+.returnback button:active{
+    background-color:#87cede;
+}

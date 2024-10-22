@@ -1,0 +1,3 @@
+{"_id":"penis","password":"$2b$10$vn.9SOJQ1rfGuxA.69xLveVOCF5RS586UUFMEnIoMIvatJU7INC6.","createdAt":{"$$date":1729554856106},"updatedAt":{"$$date":1729554856106}}
+{"_id":"qwe","password":"$2b$10$LifA9QNr1imfQ21AyDrNR.oY9U7MAbx.7vktBIKVH/COZLPtSl7dW","createdAt":{"$$date":1729551557606},"updatedAt":{"$$date":1729551557606}}
+{"_id":"user1","password":"$2b$10$3NoNgTUbjIg6gDYLZ0kSgORV0mlaxTyVLTHhfN4rb7v/dOVS6iA9m","createdAt":{"$$date":1729551590662},"updatedAt":{"$$date":1729551590662}}

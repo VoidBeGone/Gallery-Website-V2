@@ -1,0 +1,25 @@
+{
+  "name": "webgallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.mjs",
+  "scripts": {
+    "prod": "node app.mjs",
+    "dev": "nodemon app.mjs",
+    "test": "npx mocha"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "chai": "^5.1.1",
+    "chai-http": "^5.1.1",
+    "cookie": "^1.0.1",
+    "crypto": "^1.0.1",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.1-security",
+    "mocha": "^10.7.3",
+    "multer": "^1.4.5-lts.1",
+    "nedb": "^1.8.0",
+    "validator": "^13.12.0"
+  }
+}
