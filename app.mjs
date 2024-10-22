@@ -28,8 +28,6 @@ import { readFileSync } from "fs";
 ****************************** */
 
 //helps me visualize my data 
-
-const port = 3000;
 const app = express();
 
 app.use(express.urlencoded({extended:true}));
@@ -427,7 +425,9 @@ const config = {
         cert: certificate
 };
 
-export const server = createServer(config, app).listen(port, function (err) {
+const port = process.env.PORT || 3000;
+
+app.listen(port, function(err) {
     if (err) console.log(err);
-    else console.log("HTTPS server on https://localhost:%s", port);
+    else console.log(`Server running on port ${port}`);
 });
