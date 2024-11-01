@@ -10,6 +10,7 @@ import fs from "fs";
 import session from "express-session";
 import validator from "validator";
 import { readFileSync } from "fs";
+import { createSecureServer } from "http2";
 
 /*  ******* Data types *******
  image objects must have at least the following attributes:
@@ -427,7 +428,7 @@ const config = {
 
 const port = process.env.PORT || 3000;
 
-app.listen(port, function(err) {
+createServer(config, app).listen(port, function(err) {
     if (err) console.log(err);
-    else console.log(`Server running on port ${port}`);
+    else console.log(`Server running securely on https://localhost:${port}`);
 });
